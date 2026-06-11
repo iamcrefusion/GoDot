@@ -13,3 +13,4 @@ func _on_body_entered(_body: Node2D) -> void:
 
 func test() -> void:
 	print("Coin Count " + str(game_manager.score))
+	print("Coin Count " + str(game_manager.get_score()))
