@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://tlysikbjjolj"]
+[gd_scene format=3 uid="uid://tlysikbjjolj"]
 
 [ext_resource type="PackedScene" uid="uid://dfx2h5pfo8lw1" path="res://Scenes/background.tscn" id="1_bo1nx"]
 [ext_resource type="PackedScene" uid="uid://baage3ng6a5jq" path="res://Scenes/tower_1.tscn" id="2_8gbba"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=1413701307]
 
-[node name="Background" parent="." instance=ExtResource("1_bo1nx")]
+[node name="Background" parent="." unique_id=655834668 instance=ExtResource("1_bo1nx")]
 
-[node name="Tower_1" parent="." instance=ExtResource("2_8gbba")]
-position = Vector2(231, 1054)
+[node name="Tower_1" parent="." unique_id=613718558 instance=ExtResource("2_8gbba")]
+position = Vector2(359, 1006)
